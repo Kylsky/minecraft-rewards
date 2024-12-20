@@ -1,0 +1,84 @@
+# 是否启用额外奖励
+enable_additional_rewards: true
+
+# 是否启用粒子效果
+enable_particles: true
+
+# 是否启用音效
+enable_sounds: true
+
+# 是否启用广播
+enable_broadcast: true
+
+# 是否广播普通物品（概率大于5%的物品）
+broadcast_common_items: false
+
+# 基础倍率（默认1.0）
+base_multiplier: 1.0
+
+# 每级海之眷顾增加的倍率（默认0.3）
+enchant_multiplier: 0.3
+
+# 下雨天概率倍率
+rain_multiplier: 1.5
+
+# 雷暴天概率倍率
+thunder_multiplier: 2.0
+
+# 额外奖励列表
+# 格式: 物品ID:数量:概率(%)
+# 对于附魔书使用格式: ENCHANTED_BOOK|附魔名称|等级:数量:概率(%)
+additional_rewards:
+  # 常见物品 - 仅对玩家显示
+  - APPLE:1:10              # 苹果：6%获得1个
+
+  # 较少见物品 - 简单广播
+  - JUNGLE_SAPLING:1:2      # 丛林木苗：4%获得1个
+  - SAKURA_SAPLING:1:2      # 樱花木苗：4%获得1个
+  - PRISMARINE_CRYSTALS:1:4  # 海晶水晶：3%获得1个
+  - PRISMARINE_SHARD:1:4    # 海晶碎片：3%获得1个
+
+  # 稀有物品 - 带星星广播
+  - GOLDEN_APPLE:1:1        # 金苹果：1%获得1个
+
+  # 超稀有物品 - 特殊广播框
+  - SEA_LANTERN:1:0.5         # 海晶灯：0.5%获得1个
+  - DIAMOND_BLOCK:1:0.5       # 钻石块：0.5%获得1个
+  - DIAMOND_BLOCK:1:0.5       # 钻石块：0.5%获得1个
+  - GOLD_BLOCK:1:0.8          # 金块：0.5%获得1个
+  - SPONGE:1:0.5              # 海绵：0.4%获得1个
+  - DIAMOND:32:0.1            # 钻石：0.1%获得32个
+  - ENCHANTED_GOLDEN_APPLE:1:0.1          # 附魔金苹果：0.1%获得1个
+  - DIAMOND_GEAR:1:40         # 随机钻石装备，自带最强附魔
+
+# 物品的中文名称
+item_names:
+  PRISMARINE_CRYSTALS: "海晶沙粒"
+  PRISMARINE_SHARD: "海晶碎片"
+  APPLE: "苹果"
+  GOLDEN_APPLE: "金苹果"
+  JUNGLE_SAPLING: "丛林木苗"
+  SAKURA_SAPLING: "樱花木苗"
+  DIAMOND_BLOCK: "钻石块"
+  DIAMOND: "钻石"
+  GOLD_BLOCK: "金块"
+  SEA_LANTERN: "海晶灯"
+  ENCHANTED_GOLDEN_APPLE: "附魔金苹果"
+  SPONGE: "海绵"
+  ENCHANTED_BOOK: "附魔书"
+  DIAMOND_SWORD: "钻石剑"
+  DIAMOND_PICKAXE: "钻石镐"
+  DIAMOND_AXE: "钻石斧"
+  DIAMOND_SHOVEL: "钻石锹"
+  DIAMOND_HOE: "钻石锄"
+  DIAMOND_HELMET: "远古钻石头盔"
+  DIAMOND_CHESTPLATE: "远古钻石胸甲"
+  DIAMOND_LEGGINGS: "远古钻石护腿"
+  DIAMOND_BOOTS: "远古钻石靴子"
+
+# 附魔的中文名称
+enchant_names:
+  DURABILITY: "耐久"
+  MENDING: "经验修补"
+
+TOTAL_METEORS: 1000

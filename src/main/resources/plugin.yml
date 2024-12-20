@@ -1,0 +1,17 @@
+name: FishingRewards
+main: fun.yeelo.Rewards
+version: "1.0"
+api-version: "1.16"
+description: Custom Fishing Rewards!
+author: Yeelo
+website: blog.yeelo.fun
+prefix: fishingRewards
+commands:
+  startmeteor:
+    description: 启动流星雨效果
+    usage: /startmeteor <流星雨数量>
+    permission: meteorshower.start
+permissions:
+  meteorshower.start:
+    description: 允许玩家启动流星雨效果
+    default: op
